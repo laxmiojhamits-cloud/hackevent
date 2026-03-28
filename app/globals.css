@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 4%;
+    --foreground: 220 20% 92%;
+    --card: 222 44% 8%;
+    --card-foreground: 220 20% 92%;
+    --popover: 222 44% 8%;
+    --popover-foreground: 220 20% 92%;
+    --primary: 165 100% 48%;
+    --primary-foreground: 222 47% 4%;
+    --secondary: 222 40% 12%;
+    --secondary-foreground: 220 20% 92%;
+    --muted: 222 40% 12%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 165 100% 48%;
+    --accent-foreground: 222 47% 4%;
+    --destructive: 347 100% 62%;
+    --destructive-foreground: 220 20% 92%;
+    --border: 222 40% 14%;
+    --input: 222 40% 14%;
+    --ring: 165 100% 48%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-nh-bg text-nh-text font-body;
+    background-color: #f0f9ff;
+    color: #0c4a6e;
+    font-family: var(--font-dm-sans), sans-serif;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: rgba(2, 132, 199, 0.3);
+    color: #0c4a6e;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #e0f2fe;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(2, 132, 199, 0.3);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(2, 132, 199, 0.6);
+  }
+}
+
+@layer components {
+  /* Section label utility */
+  .section-label {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-nh-accent;
+    font-family: var(--font-space-mono), monospace;
+  }
+
+  .section-label::before {
+    content: "// ";
+    opacity: 0.6;
+  }
+
+  /* Glow effects */
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(2, 132, 199, 0.4), 0 0 60px rgba(2, 132, 199, 0.15);
+  }
+
+  .glow-accent2 {
+    box-shadow: 0 0 20px rgba(3, 105, 161, 0.4), 0 0 60px rgba(3, 105, 161, 0.15);
+  }
+
+  .glow-accent3 {
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4), 0 0 60px rgba(56, 189, 248, 0.15);
+  }
+
+  /* Reveal animation */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-1 {
+    transition-delay: 0.1s;
+  }
+  .reveal-delay-2 {
+    transition-delay: 0.2s;
+  }
+  .reveal-delay-3 {
+    transition-delay: 0.3s;
+  }
+  .reveal-delay-4 {
+    transition-delay: 0.4s;
+  }
+  .reveal-delay-5 {
+    transition-delay: 0.5s;
+  }
+
+  /* Cyberpunk grid bg removed */
+
+  /* Card hover lift */
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(2, 132, 199, 0.05);
+    border-color: rgba(2, 132, 199, 0.3);
+  }
+
+  /* Gradient text */
+  .gradient-text-accent {
+    background: linear-gradient(135deg, #0284c7, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-accent2 {
+    background: linear-gradient(135deg, #0369a1, #0284c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Neon border */
+  .neon-border {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.02);
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-24 px-6;
+  }
+}
+
+@layer utilities {
+  /* Font utilities */
+  .font-display {
+    font-family: var(--font-bebas), sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-mono-custom {
+    font-family: var(--font-space-mono), monospace;
+  }
+
+  /* Backdrop variants */
+  .glass {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-light {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+}
