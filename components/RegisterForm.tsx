@@ -84,7 +84,7 @@ export default function RegisterForm() {
       if (res.ok) {
         setIsSubmitted(true);
         toast.success("🎉 Registration successful!", {
-          description: "Welcome to NexusHack 2025! Check your email for confirmation.",
+          description: "Welcome to NexusHack 2026! Check your email for confirmation.",
           duration: 5000,
         });
         reset();
@@ -395,7 +395,7 @@ export default function RegisterForm() {
             <div className="bg-nh-accent/5 border border-nh-accent/20 rounded-2xl p-6 space-y-3">
               <p className="font-mono-custom text-xs text-nh-accent tracking-widest">QUICK FACTS</p>
               {[
-                ["📅", "Sept 30 – Oct 1, 2025"],
+                ["📅", "March 28 – March 29, 2026"],
                 ["⏱️", "48 hours of hacking"],
                 ["💰", "₹50K+ in prizes"],
                 ["👥", "Teams of 1–4"],

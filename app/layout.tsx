@@ -24,13 +24,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NexusHack 2025 — Build the Impossible",
+  title: "NexusHack 2026 — Build the Impossible",
   description:
-    "NexusHack 2025 is a 48-hour global hackathon bringing together 1200+ innovators to solve real-world problems across AI, Climate, Health, Web3, and more. ₹50K in prizes. September 30 – October 1, 2025.",
+    "NexusHack 2026 is a 48-hour global hackathon bringing together 1200+ innovators to solve real-world problems across AI, Climate, Health, Web3, and more. ₹50K in prizes. March 28 – March 29, 2026.",
   keywords: [
     "hackathon",
     "NexusHack",
-    "2025",
+    "2026",
     "AI",
     "machine learning",
     "climate tech",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     "coding competition",
   ],
   openGraph: {
-    title: "NexusHack 2025 — Build the Impossible",
+    title: "NexusHack 2026 — Build the Impossible",
     description:
-      "48-hour global hackathon with ₹50K in prizes. Join 1200+ innovators on Sept 30 – Oct 1, 2025.",
+      "48-hour global hackathon with ₹50K in prizes. Join 1200+ innovators on March 28 – March 29, 2026.",
     type: "website",
     url: "https://nexushack.dev",
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NexusHack 2025 — Build the Impossible",
     description:
-      "48-hour global hackathon with ₹50K in prizes. Join 1200+ innovators on Sept 30 – Oct 1, 2025.",
+      "48-hour global hackathon with ₹50K in prizes. Join 1200+ innovators on March 28 – March 29, 2026.",
   },
 };
 

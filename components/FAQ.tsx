@@ -10,8 +10,8 @@ import {
 
 const faqs = [
   {
-    q: "Who is eligible to participate in NexusHack 2025?",
-    a: "NexusHack 2025 is open to anyone 18+ who loves building things. Students, professionals, designers, data scientists, and domain experts from any country are welcome. No prior hackathon experience required — all skill levels encouraged.",
+    q: "Who is eligible to participate in NexusHack 2026?",
+    a: "NexusHack 2026 is open to anyone 18+ who loves building things. Students, professionals, designers, data scientists, and domain experts from any country are welcome. No prior hackathon experience required — all skill levels encouraged.",
   },
   {
     q: "Can I participate remotely?",

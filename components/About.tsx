@@ -51,7 +51,7 @@ export default function About() {
 
             <div className="space-y-5 reveal reveal-delay-1">
               <p className="text-nh-muted text-lg leading-relaxed">
-                NexusHack 2025 is more than a competition — it&apos;s a
+                NexusHack 2026 is more than a competition — it&apos;s a
                 movement. We bring together the planet&apos;s most ambitious
                 engineers, designers, and visionaries for 48 hours of relentless
                 building, mentorship, and innovation.

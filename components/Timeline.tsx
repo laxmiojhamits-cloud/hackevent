@@ -5,35 +5,35 @@ import { CheckCircle2 } from "lucide-react";
 
 const milestones = [
   {
-    date: "Sep 01, 2025",
+    date: "Mar 01, 2026",
     title: "Applications Open",
     description: "Registration portal goes live. Early applicants get priority review and exclusive swag.",
     accent: "nh-accent",
     done: true,
   },
   {
-    date: "Sep 15, 2025",
+    date: "Mar 15, 2026",
     title: "Early Bird Deadline",
     description: "Submit your application for early acceptance. Teams registered by this date receive a dedicated mentor match.",
     accent: "nh-accent",
     done: true,
   },
   {
-    date: "Sep 22, 2025",
+    date: "Mar 22, 2026",
     title: "Team Formation Day",
     description: "Join our online mixer to find collaborators. All solo applicants are matched into teams of 2–4.",
     accent: "nh-accent3",
     done: false,
   },
   {
-    date: "Sep 28, 2025",
+    date: "Mar 27, 2026",
     title: "Final Registration Closes",
     description: "Last chance to register and form teams. All accepted participants receive their hacker kits.",
     accent: "nh-accent3",
     done: false,
   },
   {
-    date: "Sep 30, 2025",
+    date: "Mar 28, 2026",
     title: "🚀 Hackathon Kicks Off",
     description: "Opening ceremony at 9:00 AM IST. The 48-hour clock starts. Problem statements revealed. Build begins.",
     accent: "nh-accent2",
@@ -41,14 +41,14 @@ const milestones = [
     highlight: true,
   },
   {
-    date: "Oct 01, 2025",
+    date: "Mar 29, 2026",
     title: "Submissions Due",
     description: "All projects submitted by 9:00 AM IST. Judging panel reviews demos, code, and presentations.",
     accent: "nh-accent3",
     done: false,
   },
   {
-    date: "Oct 02–20, 2025",
+    date: "Mar 30 – Apr 10, 2026",
     title: "Winners Announced",
     description: "Top teams present at closing ceremony. Prize distribution, spotlight features, and accelerator referrals.",
     accent: "nh-accent",

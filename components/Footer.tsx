@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-nh-muted/50 font-mono-custom text-xs tracking-wide">
-            © 2025 NexusHack. All rights reserved.
+            © 2026 NexusHack. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-nh-muted/30 font-mono-custom text-xs">
             <span>Built with</span>

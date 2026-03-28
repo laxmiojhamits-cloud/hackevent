@@ -46,7 +46,7 @@ function CountdownBlock({ value, label }: { value: number; label: string }) {
 }
 
 export default function Hero() {
-  const targetDate = new Date("2025-09-30T09:00:00");
+  const targetDate = new Date("2026-03-28T09:00:00");
   const timeLeft = useCountdown(targetDate);
   const heroRef = useRef<HTMLDivElement>(null);
 
@@ -71,7 +71,7 @@ export default function Hero() {
         <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <Badge className="bg-nh-accent/10 border border-nh-accent/30 text-nh-accent font-mono-custom text-xs tracking-widest px-4 py-1.5 hover:bg-nh-accent/20 transition-colors animate-pulse-glow">
             <span className="w-2 h-2 rounded-full bg-nh-accent mr-2 inline-block animate-flicker" />
-            Applications Open — Sept 30, 2025
+            Applications Open — March 28, 2026
           </Badge>
         </div>
 
@@ -99,7 +99,7 @@ export default function Hero() {
           style={{ animationDelay: "0.45s" }}
         >
           {[
-            { icon: Calendar, text: "Sept 30 – Oct 1, 2025" },
+            { icon: Calendar, text: "March 28 – March 29, 2026" },
             { icon: MapPin, text: "Global + Gwalior Hub" },
             { icon: Wifi, text: "In-person & Remote" },
             { icon: Users, text: "1200+ Participants" },
